@@ -87,7 +87,8 @@ var HIGHLIGHT = {
 
 var PRETTIFY = {
     _type : "PRETTIFY",
-    _cls  : "prettyprint linenums lang-",
+//  _cls  : "prettyprint linenums lang-",
+    _cls  : "prettyprint lang-",
     _tag  : 'pre'
 }
 

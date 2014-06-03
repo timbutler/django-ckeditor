@@ -8,13 +8,13 @@ def get_source_files():
             yield os.path.join('/'.join(dirname.split('/')[1:]), filename)
 
 setup(
-    name='django-ckeditor-updated',
+    name='django-ckeditor-pbckcode',
     version='4.4.0',
-    description='Django admin CKEditor integration.',
+    description='Django admin CKEditor integration - with code markup.',
     long_description=open('README.rst', 'r').read() + open('AUTHORS.rst', 'r').read() + open('CHANGELOG.rst', 'r').read(),
-    author='Piotr Malinski',
-    author_email='riklaunim@gmail.com',
-    url='https://github.com/riklaunim/django-ckeditor',
+    author='Tim Butler',
+    author_email='tim.butler.au@gmail.com',
+    url='https://github.com/timbutler/django-ckeditor',
     packages=find_packages(exclude=["*.demo"]),
     install_requires=[
         'Django',

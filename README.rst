@@ -4,9 +4,16 @@ Django CKEditor
 * shaunsephton / django-ckeditor is on PyPi as https://pypi.python.org/pypi/django-ckeditor - still old release not compatible with newer Django versions
 
 
-**This fork, django-ckeditor-updated, has different configuration than the old django ckeditor. All of my changes were recently merged to shaunsephton repository
-but they havent been released yet as a package. Until django-ckeditor won't get new and constant releases I'be maintaining this fork.***
+**This fork of django-ckeditor-updated(riklaunim) , which itself is a fork of django-ckeditor (shaunsephton) to add code editing plugins**
 
+This should be considered **DEVELOPMENT USE ONLY**, it has not been throughly tested.
+
+The plugins added are: 
+* pbckcode
+* widget
+* linenum
+
+Simply add "pbckcode" ``extraplugins`` config.
 
 **Django admin CKEditor integration.**
 Provides a ``RichTextField`` and ``CKEditorWidget`` utilizing CKEditor with image upload and browsing support included.
